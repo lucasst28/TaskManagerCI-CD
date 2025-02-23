@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/SEU_USUARIO/TaskManagerCI-CD.git', branch: 'main'
+                git url: 'https://github.com/lucasst28/TaskManagerCI-CD.git', branch: 'main'
             }
         }
 
